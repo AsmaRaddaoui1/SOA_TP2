@@ -1,0 +1,6 @@
+<!ELEMENT BanqueService (conversion)>
+<!ELEMENT conversion (#PCDATA)>
+<!ELEMENT Compte (code, solde, dateCreation)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT solde (#PCDATA)>
+<!ELEMENT dateCreation (#PCDATA)>
